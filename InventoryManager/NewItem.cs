@@ -36,7 +36,10 @@ namespace InventoryManager
                     {
                         NewItem_Load(null, null);
                     }
-                    break;
+                    else
+                    {
+                        break;
+                    }
                 }
                 catch (Exception ex)
                 {
